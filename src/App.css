@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: rgb(19,19,19);
 }
 
 .App-logo {
@@ -35,4 +39,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header {
+  font-weight: 200;
+  font-size: 30pt;
+  color: #A43327;
+}
+
+.SubHeader {
+  font-weight: 200;
+  font-size: 14pt;
+  color: white;
 }

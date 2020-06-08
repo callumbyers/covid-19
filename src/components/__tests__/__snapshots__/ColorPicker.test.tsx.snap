@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  id="ColorPickerContainer"
+>
+  <div
+    id="ColorPickerHeader"
+  >
+    Change Country Color
+  </div>
+  <div
+    className="ColorDropdown"
+  >
+    <label
+      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+      data-shrink={true}
+      id="CountryColorLabel"
+    >
+      Country
+    </label>
+    <div>
+      <div
+        className="MuiFormControl-root makeStyles-formControl-3"
+      >
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline makeStyles-customSelect-1 MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <div
+            aria-haspopup="listbox"
+            aria-labelledby="SingleSelectLabel SingleSelectInput"
+            className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+            id="SingleSelectInput"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </div>
+          <input
+            onAnimationStart={[Function]}
+            placeholder="Select Country"
+            type="hidden"
+            value=""
+          />
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSelect-icon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ColorDropdown"
+  >
+    <label
+      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+      data-shrink={true}
+      id="CountryColorChoiceLabel"
+    >
+      Color
+    </label>
+    <div>
+      <div
+        className="MuiFormControl-root makeStyles-formControl-3"
+      >
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline makeStyles-customSelect-1 MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <div
+            aria-haspopup="listbox"
+            aria-labelledby="SingleSelectLabel SingleSelectInput"
+            className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+            id="SingleSelectInput"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </div>
+          <input
+            onAnimationStart={[Function]}
+            placeholder="Select Color"
+            type="hidden"
+            value=""
+          />
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSelect-icon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text SaveButton"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Save
+    </span>
+  </button>
+</div>
+`;

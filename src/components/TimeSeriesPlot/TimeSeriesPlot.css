@@ -1,0 +1,85 @@
+#TimeSeriesPlot {
+    display: flex;
+    grid-template-columns: 200px 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    #TimeSeriesPlot {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        grid-template-columns: 100%;
+    }
+
+    .Menu {
+        margin-top: 80px;
+        margin-left: 10px;
+    }
+    
+    #Main {
+        margin-left: 0px;
+    }
+
+    #ColorPickerContainer {
+        width: unset;
+    }
+
+    [class*="MuiTabs-flexContainer"]{
+        justify-content: unset !important;
+    }
+    
+  }
+
+#TimeSeriesPlot 
+
+#DatePickers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.DatePicker {
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    background: none;
+    border-bottom: 1px #917164 solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14pt;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+#CountrySelectContainer {
+    margin-top: 20px;
+}
+
+#CountrySelectLabel, #DatePickerLabel {
+    color: #AD8175;
+    font-size: 14pt;
+    margin-bottom: 30px;
+}
+
+.Tab {
+    background-color: #917164 !important;
+}
+
+.Tabs {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.Menu {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+#Main {
+    margin-left: 80px;
+}
