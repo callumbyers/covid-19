@@ -1,6 +1,5 @@
 import React from 'react';
 import { TimeSeriesPlot } from '../../components';
-import { Tabs, Tab } from '@material-ui/core';
 import './Dashboard.css';
 
 const Dashboard = () => {
