@@ -77,11 +77,8 @@ const DataGrid = ({ selectedCountries = [], startIndex, endIndex, startDate, end
             start = start.add('1', 'day');
         }
 
-        if (startIndex > -1 && endIndex > -1) {
-            setRows(newRows.slice(startIndex, endIndex + 1).sort((a, b) => (a.date < b.date ? 1 : -1)));
-        } else {
-            setRows(newRows.sort((a, b) => (a.date < b.date ? 1 : -1)));
-        }
+        setRows(newRows.sort((a, b) => (a.date < b.date ? 1 : -1)));
+        
     };
 
     useEffect(() => {
